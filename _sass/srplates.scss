@@ -122,6 +122,13 @@ div.nav-position {
 .navlist {
     float: left;
     position: relative;
+    border-top: 4px solid #717273;
+    border-bottom: 4px solid #717273;
+}
+
+.navlist:hover {
+    border-top-color: rgba(238, 34, 72, 0.8);
+    border-bottom-color: rgba(238, 34, 72, 0.8); 
 }
 
 .navlist ul {
@@ -142,7 +149,8 @@ li.navlist:hover ul{
     display: block;
     opacity: 0.8;
     position: absolute;
-    left: -30px;
+    top: 64px;
+    left: -31px;
 }
 
 .navlist ul li {
@@ -160,7 +168,7 @@ li.navlist:hover ul{
 }
 
 .navlist ul li a:hover {
-    background: #d61e40;
+    background: rgba(238, 34, 72, 0.8);
 }
 
 .navlink {
@@ -189,6 +197,15 @@ li.navlist:hover ul{
 .logo {
     padding-right: 40px; 
     padding-bottom: 10px;
+}
+
+.index-button:hover {
+    border-top-color: #717273;
+}
+
+body.index-button li.index-button {
+    border-top-color: #717273;
+    border-bottom-color: rgba(238, 34, 72, 0.8);
 }
 
 body.about-button li.about-button {
