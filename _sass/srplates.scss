@@ -127,8 +127,9 @@ div.nav-position {
 }
 
 .navlist:hover {
-    border-top-color: rgba(238, 34, 72, 0.8);
-    border-bottom-color: rgba(238, 34, 72, 0.8); 
+    background-color: rgba(238,34,72, 0.8);
+    border-top-color: rgba(238, 34, 72, 0.7);
+    border-bottom-color: rgba(238, 34, 72, 0.7); 
 }
 
 .navlist ul {
@@ -149,7 +150,7 @@ li.navlist:hover ul{
     display: block;
     opacity: 0.8;
     position: absolute;
-    top: 64px;
+    top: 64.5px;
     left: -31px;
 }
 
@@ -200,7 +201,21 @@ li.navlist:hover ul{
 }
 
 .index-button:hover {
+    background-color: #717273;
     border-top-color: #717273;
+}
+
+.search-button:hover {
+    background-color: #717273;
+    border-top-color: #717273;
+}
+
+body.index-button:hover {
+    background-color: #f1f1f1;
+}
+
+body.search-button:hover {
+    background-color: #f1f1f1;
 }
 
 body.index-button li.index-button {
@@ -210,26 +225,43 @@ body.index-button li.index-button {
 
 body.about-button li.about-button {
     background-color: rgba(238, 34, 72, 0.8);
+    border-top-color: rgba(238, 34, 72, 0.7);
+    border-bottom-color: rgba(238, 34, 72, 0.7);
 }
 
 body.plates-button li.plates-button {
     background-color: rgba(238, 34, 72, 0.8);
+    border-top-color: rgba(238, 34, 72, 0.7);
+    border-bottom-color: rgba(238, 34, 72, 0.7);
 }
 
 body.timeline-button li.timeline-button {
     background-color: rgba(238, 34, 72, 0.8);
+    border-top-color: rgba(238, 34, 72, 0.7);
+    border-bottom-color: rgba(238, 34, 72, 0.7);
 }
 
 body.map-button li.map-button {
     background-color: rgba(238, 34, 72, 0.8);
+    border-top-color: rgba(238, 34, 72, 0.7);
+    border-bottom-color: rgba(238, 34, 72, 0.7);
 }
 
 body.glossary-button li.glossary-button {
     background-color: rgba(238, 34, 72, 0.8);
+    border-top-color: rgba(238, 34, 72, 0.7);
+    border-bottom-color: rgba(238, 34, 72, 0.7);
 }
 
 body.exhibits-button li.exhibits-button {
     background-color: rgba(238, 34, 72, 0.8);
+    border-top-color: rgba(238, 34, 72, 0.7);
+    border-bottom-color: rgba(238, 34, 72, 0.7);
+}
+
+body.search-button li.search-button {
+    border-top-color: #717273;
+    border-bottom-color: rgba(238, 34, 72, 0.8);
 }
 
 
