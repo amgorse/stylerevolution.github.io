@@ -556,26 +556,37 @@ div.glossarypage {
 .description {
     width: 100%; 
     display: inline-block;
+    text-align: center;
     margin: auto;
     padding: 0;
+    font-size: 20px;
+    line-height: 1.25;
     
 }
+.caption {
+    font-family: 'Forum', 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 22px;
 
-.French {
+}
+
+.french {
     width: 49%;
     float: left;
 }
 
-.English {
+.english {
     width: 49%;
     margin-left: 52%;
 }
 
-.French, .English {
+.french, .english {
     background-color: white;
     text-align: left;
-    padding-top: 5px;
+    padding: 1%;
 }
+
+
 
 /*Individual Projects*/
 
@@ -632,15 +643,19 @@ div.glossarypage {
 }
 
 div.interactivemap {
-    height: 100%;
-    width: 100%;
-    padding: 0px;
+    height: 75%;
+    width: 75%;
+    padding-left: 12%; padding-right: 12%;
+    padding-bottom: 25%;
     object-fit: cover;
     z-index: 0;
     position: absolute;
 }
     
-
+.interactive-map-space {
+    height: 25%;
+    width: 100%;
+}
 /*Corsets*/
 
 .corsets{
